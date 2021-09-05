@@ -1,0 +1,121 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+header
+{
+    background: #45e695;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+header a{
+    color: #fff;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#menu li{
+    padding: 10px;
+}
+#social-links li
+{
+    padding: 10px;
+}
+#logo
+{
+    margin: 0 auto;
+    font-size: 30px;
+}
+#main
+{
+    display: flex;
+    
+
+}
+aside{
+    flex: 0 0  20vw;
+    background: rgb(223, 161, 241);
+    padding: 10px;
+}
+aside ul{
+    list-style: none;
+    padding: 0px;
+}
+aside ul a{
+    color: rgb(117, 218, 243);
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid gray;
+
+}
+aside img
+{
+    width: 100%;
+}
+article{
+    padding: 10px;
+}
+.services-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.service-box
+{
+    border: 1px solid #eee;
+    flex-basis: 32%;
+    max-width: 370px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.service-box h3{
+    margin: 5px 0 10px;
+}
+.service-box p{
+    margin: 0 0 10px;
+}
+.service-box img{
+    width: 100%;
+    
+}
+.call-to-action
+{
+    align-self: flex-start;
+    margin-top: auto;
+}
+.call-to-action a{
+    background-color: gray;
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 8px 13px;
+    display: block;
+
+}
+.call-to-action a:hover{
+    background: transparent;
+    color: gray;
+    border: 2px solid transparent;
+}
+footer{
+    background: burlywood;
+    color: chartreuse;
+    text-align: center;
+    padding: 15px 0;
+}
+
